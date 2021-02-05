@@ -1,0 +1,25 @@
+schema-version: 1.0
+type: builder
+
+
+var:
+  version: 2.13.2
+
+pack: golang
+
+provision:
+  - pkg: build-essential
+  - url: 
+      from: https://github.com/git-lfs/git-lfs/archive/v{% version %}.tar.gz
+      after:
+        cmds:
+          - mkdir -p /root/go/src/github.com/git-lfs/git-lfs
+          - mv /opt/git-lfs-{% version %}/* /root/go/src/github.com/git-lfs/git-lfs
+
+build:
+  - shell:
+      cmd: make
+      directory: /root/go/src/github.com/git-lfs/git-lfs
+  - download: /root/go/src/github.com/git-lfs/git-lfs/bin/git-lfs
+
+

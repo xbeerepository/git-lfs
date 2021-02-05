@@ -1,0 +1,15 @@
+schema-version: 1.0
+
+var:
+  version: 2.13.2
+
+builder:
+  origin: ./git-lfs-builder
+  var:
+    version: "{% version %}"
+
+
+provision:
+  - copy:
+      builder: git-lfs
+      todir: /usr/bin

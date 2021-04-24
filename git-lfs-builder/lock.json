@@ -1,0 +1,12 @@
+{
+    "Ids": [
+        [
+            {
+                "origin": "https://github.com/xbeerepository/golang.git"
+            },
+            {
+                "version": "master"
+            }
+        ]
+    ]
+}

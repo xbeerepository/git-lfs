@@ -1,0 +1,14 @@
+host:
+  git-lfs-builder:
+    expose-ports: true
+    packs:
+    - origin: ../..
+    provider:
+      origin: virtualbox
+      var:
+        cpus: 2
+        memory: 4096
+        version: 0.1.0-DEV
+    system:
+      origin: https://github.com/xbeerepository/ubuntu.git:20.04
+schema-version: "1.0"

@@ -1,0 +1,67 @@
+2021-02-14 22:13:28.701 : virtualbox : INFO : Server started, listening on port 38795, secure mode=UNSECURED
+2021-02-14 22:13:28.741 : virtualbox : INFO : Create instances [git-lfs-builder]... WAIT
+2021-02-14 22:13:28.741 : virtualbox : INFO :  : git-lfs-builder_git-lfs-builder : Host does not exist, first create it
+2021-02-14 22:13:28.741 : virtualbox : INFO : Import OVF [/home/eric/.xbee/cache/s3.eu-west-3.amazonaws.com/xbee.repository.public/ubuntu/ubuntu-20.04-amd64.ova] into virtualbox
+2021-02-14 22:13:38.053 : virtualbox : INFO : Expose ssh port 22 (guest) to port 2200 (host)
+2021-02-14 22:13:38.245 : virtualbox : INFO : Expose port 2345 (guest) to port 2345 (host)
+2021-02-14 22:13:38.294 : virtualbox : INFO : memory set to 4096 Mo
+2021-02-14 22:13:38.294 : virtualbox : INFO : cpus set to 2
+2021-02-14 22:13:38.337 : virtualbox : INFO : Start vm...
+2021-02-14 22:13:38.537 : virtualbox : INFO : Vm started.
+2021-02-14 22:13:38.537 : virtualbox : INFO : git-lfs-builder_git-lfs-builder : acquire SSH connexion
+2021-02-14 22:13:58.341 : virtualbox : INFO : git-lfs-builder_git-lfs-builder : SSH connexion OK
+2021-02-14 22:13:58.342 : virtualbox : INFO : git-lfs-builder_git-lfs-builder : upload script userdata.sh to bootstrap guest
+2021-02-14 22:13:59.209 : virtualbox : INFO : git-lfs-builder_git-lfs-builder : execute script userdata.sh : START
+2021-02-14 22:14:01.851 : virtualbox : INFO : git-lfs-builder_git-lfs-builder : execute script userdata.sh : END
+2021-02-14 22:14:01.851 : virtualbox : INFO : Successfully Created and started [git-lfs-builder]
+2021-02-14 22:14:54.868 : virtualbox : INFO : Force stop
+2021-02-14 22:14:54.868 : virtualbox : INFO : Server stopped, OK state
+2021-02-14 22:15:11.281 : virtualbox : INFO : Server started, listening on port 43111, secure mode=UNSECURED
+2021-02-14 22:18:13.091 : virtualbox : INFO : Force stop
+2021-02-14 22:18:13.091 : virtualbox : INFO : Server stopped, OK state
+2021-02-14 22:18:16.012 : virtualbox : INFO : Server started, listening on port 39843, secure mode=UNSECURED
+2021-02-14 22:18:32.634 : virtualbox : INFO : Signal(interrupt) received, server will be stopped
+2021-02-14 22:18:32.634 : virtualbox : INFO : Force stop
+2021-02-14 22:18:32.634 : virtualbox : INFO : Server stopped, OK state
+2021-02-14 22:21:18.898 : virtualbox : INFO : Server started, listening on port 41849, secure mode=UNSECURED
+2021-02-14 22:22:20.090 : virtualbox : INFO : Server started, listening on port 44909, secure mode=UNSECURED
+2021-02-14 22:25:00.206 : virtualbox : INFO : Force stop
+2021-02-14 22:25:00.207 : virtualbox : INFO : Server stopped, OK state
+2021-02-14 22:25:36.331 : virtualbox : INFO : Server started, listening on port 33527, secure mode=UNSECURED
+2021-02-14 22:27:01.524 : virtualbox : INFO : Server started, listening on port 45497, secure mode=UNSECURED
+2021-02-14 22:27:37.828 : virtualbox : INFO : Server started, listening on port 38449, secure mode=UNSECURED
+2021-02-14 22:28:13.091 : virtualbox : INFO : Signal(interrupt) received, server will be stopped
+2021-02-14 22:28:13.092 : virtualbox : INFO : Force stop
+2021-02-14 22:28:13.092 : virtualbox : INFO : Server stopped, OK state
+2021-02-14 22:29:09.964 : virtualbox : INFO : Server started, listening on port 33155, secure mode=UNSECURED
+2021-02-14 22:31:21.377 : virtualbox : INFO : Force stop
+2021-02-14 22:31:21.377 : virtualbox : INFO : Server stopped, OK state
+2021-02-14 22:31:35.581 : virtualbox : INFO : Server started, listening on port 37417, secure mode=UNSECURED
+2021-02-14 22:32:38.377 : virtualbox : INFO : Force stop
+2021-02-14 22:32:38.377 : virtualbox : INFO : Server stopped, OK state
+2021-02-14 22:33:59.092 : virtualbox : INFO : Force stop
+2021-02-14 22:33:59.092 : virtualbox : INFO : Server stopped, OK state
+2021-02-14 22:53:15.905 : virtualbox : INFO : Server started, listening on port 45059, secure mode=UNSECURED
+2021-02-14 22:53:15.950 : virtualbox : INFO : Create instances [git-lfs-builder]... WAIT
+2021-02-14 22:53:15.951 : virtualbox : INFO :  : git-lfs-builder_git-lfs-builder : Host does not exist, first create it
+2021-02-14 22:53:15.952 : virtualbox : INFO : Import OVF [/home/eric/.xbee/cache/s3.eu-west-3.amazonaws.com/xbee.repository.public/ubuntu/ubuntu-20.04-amd64.ova] into virtualbox
+2021-02-14 22:53:26.011 : virtualbox : INFO : Expose ssh port 22 (guest) to port 2200 (host)
+2021-02-14 22:53:26.135 : virtualbox : INFO : Expose port 2345 (guest) to port 2345 (host)
+2021-02-14 22:53:26.180 : virtualbox : INFO : memory set to 4096 Mo
+2021-02-14 22:53:26.180 : virtualbox : INFO : cpus set to 2
+2021-02-14 22:53:26.226 : virtualbox : INFO : Start vm...
+2021-02-14 22:53:26.487 : virtualbox : INFO : Vm started.
+2021-02-14 22:53:26.487 : virtualbox : INFO : git-lfs-builder_git-lfs-builder : acquire SSH connexion
+2021-02-14 22:53:46.389 : virtualbox : INFO : git-lfs-builder_git-lfs-builder : SSH connexion OK
+2021-02-14 22:53:46.389 : virtualbox : INFO : git-lfs-builder_git-lfs-builder : upload script userdata.sh to bootstrap guest
+2021-02-14 22:53:47.214 : virtualbox : INFO : git-lfs-builder_git-lfs-builder : execute script userdata.sh : START
+2021-02-14 22:53:48.164 : virtualbox : INFO : git-lfs-builder_git-lfs-builder : execute script userdata.sh : END
+2021-02-14 22:53:48.164 : virtualbox : INFO : Successfully Created and started [git-lfs-builder]
+2021-02-14 22:54:40.287 : virtualbox : INFO : Destroy [git-lfs-builder]... WAIT
+2021-02-14 22:54:40.334 : virtualbox : INFO : Shutdown request...
+2021-02-14 22:54:40.946 : virtualbox : INFO : ...Shutdown succeeded
+2021-02-14 22:54:41.157 : virtualbox : INFO : Remove vm from virtualbox...
+2021-02-14 22:54:41.310 : virtualbox : INFO : ...vm removed
+2021-02-14 22:54:41.310 : virtualbox : INFO : Successfully destroyed [git-lfs-builder]
+2021-02-14 22:54:41.341 : virtualbox : INFO : Force stop
+2021-02-14 22:54:41.341 : virtualbox : INFO : Server stopped, OK state
